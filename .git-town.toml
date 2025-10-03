@@ -2,7 +2,7 @@
 
 [branches]
 main = "main"
-feature-regex = "^users/SirDue/*"
+feature-regex = "^users/SirDue/.*"
 unknown-type = "prototype"
 
 [hosting]
