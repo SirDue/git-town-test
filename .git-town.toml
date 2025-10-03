@@ -1,0 +1,9 @@
+# See https://www.git-town.com/configuration-file for details
+
+[branches]
+main = "main"
+feature-regex = "^users/SirDue/*"
+unknown-type = "prototype"
+
+[hosting]
+origin-hostname = "github.com"
