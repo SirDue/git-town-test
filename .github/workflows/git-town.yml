@@ -10,11 +10,8 @@ jobs:
     name: Display the branch stack
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: read
-      pull-requests: write
-
     steps:
       - uses: actions/checkout@v4
       - uses: git-town/action@v1
-
+        with:
+          location: comment
