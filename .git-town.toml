@@ -7,3 +7,7 @@ unknown-type = "prototype"
 
 [hosting]
 origin-hostname = "github.com"
+
+[ship]
+delete-tracking-branch = true
+strategy = "api"
